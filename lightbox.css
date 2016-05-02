@@ -1,0 +1,30 @@
+#lightbox-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+
+}
+
+#lightbox-container {
+	position: absolute;
+	text-align: center;
+	background-color: #fff;
+	border-color: #ccc;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#lightbox-container img {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+
+#lightbox-container p {
+	margin: 5px 0;
+	font-style: italic;
+	color: #666;
+}
